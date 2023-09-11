@@ -1,11 +1,12 @@
-BACKUP E RECOVERY:
+# BACKUP E RECOVERY
 
 Backup com mysqldump:
 
-bash
+```bash
 mysqldump -u seu_usuario -p sua_senha nome_do_banco_de_dados > backup.sql
+```
 
 Recuperação do backup:
-
-bash
+```bash
 mysql -u seu_usuario -p sua_senha nome_do_banco_de_dados < backup.sql
+```
